@@ -1149,11 +1149,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 8191242071110135239}
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 64
-  walkPoint: {x: 0, y: 0, z: 0}
-  walkPointRange: 10
+  walking: 0
+  posA: {fileID: 0}
+  posB: {fileID: 0}
 --- !u!1 &6004418498686031944
 GameObject:
   m_ObjectHideFlags: 0
